@@ -16,8 +16,7 @@ import streamlit as st
 from PIL import Image
 
 # ── project root ──────────────────────────────────────────────
-APP_DIR  = Path(__file__).resolve().parent
-ROOT_DIR = APP_DIR.parent
+ROOT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT_DIR))
 
 import tensorflow as tf
