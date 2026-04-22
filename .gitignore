@@ -1,0 +1,29 @@
+# Core exclusions (Recursive)
+**/venv/
+**/env/
+**/.env
+**/data/
+
+# Specific app exclusions
+brain-tumor-app/venv/
+brain-tumor-app/data/
+brain-tumor-app/models/logs/
+brain-tumor-app/*.log
+
+# TEMPORARILY IGNORE MODELS FOR DIAGNOSTIC PUSH
+*.h5
+
+# Python Cache
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Notebooks
+**/.ipynb_checkpoints/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

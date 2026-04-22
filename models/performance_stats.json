@@ -1,0 +1,42 @@
+{
+  "test_loss": 0.592,
+  "test_accuracy": 0.7105,
+  "best_val_accuracy": 0.8421,
+  "best_val_loss": 0.4382,
+  "epochs_trained": 3,
+  "report": {
+    "No Tumor": {
+      "precision": 1.0,
+      "recall": 0.26666666666666666,
+      "f1-score": 0.42105263157894735,
+      "support": 15.0
+    },
+    "Tumor": {
+      "precision": 0.6764705882352942,
+      "recall": 1.0,
+      "f1-score": 0.8070175438596491,
+      "support": 23.0
+    },
+    "accuracy": 0.7105263157894737,
+    "macro avg": {
+      "precision": 0.8382352941176471,
+      "recall": 0.6333333333333333,
+      "f1-score": 0.6140350877192982,
+      "support": 38.0
+    },
+    "weighted avg": {
+      "precision": 0.8041795665634676,
+      "recall": 0.7105263157894737,
+      "f1-score": 0.6546629732225299,
+      "support": 38.0
+    }
+  },
+  "dataset": {
+    "total_images": 253,
+    "train_size": 177,
+    "val_size": 38,
+    "test_size": 38,
+    "tumor_count": 155,
+    "no_tumor_count": 98
+  }
+}

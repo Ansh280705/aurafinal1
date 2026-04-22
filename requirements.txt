@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────────────────────
+#  Brain Tumor Detection System — Python dependencies
+#  Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# Deep Learning framework
+tensorflow>=2.12.0,<3.0.0
+tensorboard>=2.12.0
+
+# Web application
+streamlit>=1.32.0
+
+# Data & scientific computing
+numpy>=1.23.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+
+# Image processing
+opencv-python-headless>=4.7.0  # headless for servers (no GUI deps)
+Pillow>=9.4.0
+
+# Kaggle dataset downloader
+kagglehub>=0.2.0
+
+# Utilities
+tqdm>=4.65.0
